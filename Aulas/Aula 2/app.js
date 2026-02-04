@@ -1,7 +1,7 @@
 /************************************************************************
  * Objetivo: Calcular médias escolares
  * Data: 29/01/2026
- * Autor: Marcel
+ * Autor: Lucas
  * Versão: 1.0
  * **********************************************************************/
 
@@ -38,7 +38,7 @@ const entradaDeDados = readline.createInterface({
 //Entrada o nome
 entradaDeDados.question('Digite o nome do aluno: ', function(nome){
 
-    //Rcebe o nome do aluno que foi digitado 
+    //Recebe o nome do aluno que foi digitado 
     let nomeAluno = nome 
 
     //Entrada da nota 1
