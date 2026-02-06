@@ -81,6 +81,7 @@ entradaDeDados.question('Digite seu nome: ', function(nome){
                                     let capital = Number(valorProduto)
                                     let taxaJuros = Number(taxa)
 
+                                    //Cáculo Montante
                                     let montante = capital * (1 + taxaJuros) ** periodoMeses
                                     let acrescimo = montante - valorProduto
 
@@ -109,6 +110,7 @@ entradaDeDados.question('Digite seu nome: ', function(nome){
                                         let capital = Number(valorProduto)
                                         let taxaJuros = Number(taxa)
                                         
+                                        //Cáculo Montante
                                         let montante = capital * (1 + taxaJuros) ** periodoMeses
                                         let acrescimo = montante - valorProduto
 
@@ -126,7 +128,7 @@ entradaDeDados.question('Digite seu nome: ', function(nome){
 
                                     })//Fecha quantidade de meses
                                     
-                                }
+                                }//Fecha meses digitados
                 })//Fecha escolha de periodo 
             })//Fecha taxa
         })//Fecha valor
